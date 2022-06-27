@@ -1,0 +1,52 @@
+.my-modal {
+  display: none;
+  transition: all .1s;
+}
+
+.modal-active {
+  display: block;
+}
+
+.modal-blur {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(255, 255, 255, .4);
+  z-index: 7;
+  backdrop-filter: blur(10px);
+  cursor: pointer;
+}
+
+.modal-body {
+  position: absolute;
+  background: #f2f2f2;
+  width: 60vw;
+  height: 80vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 10px;
+  box-shadow: 10px 10px 5px #fff, -10px 10px 5px #fff, 10px -10px 5px #fff, -10px -10px 5px #fff;
+  border-radius: 10px;
+  z-index: 77;
+}
+
+.modal-body p {
+  font-size: 17px;
+  color: #333;
+  border-bottom: 1px solid #333;
+  margin-bottom: 20px;
+}
+
+.close {
+  width: 20px;
+  height: 20px;
+  background: red;
+  color: #fff;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-left: auto;
+}

@@ -1,0 +1,77 @@
+.asosiy {
+  width: 300px;
+  background: gold;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  color: darkgreen;
+  padding: 20px 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  transition: all .4s;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.asosiy:nth-child(1) {
+  background: #fff;
+}
+
+.asosiy:nth-child(2) {
+  background: linear-gradient(45deg, #72c2ff, #86f0ff);
+}
+
+.asosiy:nth-child(3) {
+  background: linear-gradient(45deg, #9ce89d, #cdfa7e);
+}
+
+.asosiy:nth-child(4) {
+  background: linear-gradient(45deg, #e0e89c, #faf87e);
+}
+
+.asosiy:nth-child(5) {
+  background: linear-gradient(45deg, #e89cd5, #d77efa);
+}
+
+.asosiy:nth-child(6) {
+  background: linear-gradient(45deg, #9cd9e8, #7ee7fa);
+}
+
+.asosiy:nth-child(7) {
+  background: linear-gradient(45deg, #e8d09c, #faf87e);
+}
+
+.asosiy:nth-child(8) {
+  background: linear-gradient(45deg, #9b7f7b, #f39072);
+}
+
+.asosiy:nth-child(9) {
+  background: linear-gradient(45deg, #b2d4ae, #485f22);
+}
+
+.asosiy:nth-child(10) {
+  background: linear-gradient(45deg, #bd9ce8, #7e80fa);
+}
+
+.asosiy:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+}
+
+.asosiy-date h2 {
+  margin-bottom: 5px;
+}
+
+.asosiy-date {
+  margin-right: 20px;
+  text-align: center;
+}
+
+.asosiy-date h3 {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.asosiy-text h4 {
+  margin-bottom: 5px;
+}

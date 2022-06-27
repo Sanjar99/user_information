@@ -1,0 +1,44 @@
+.header {
+  width: 4%;
+  height: 100vh;
+  background: #22252B;
+  color: #fff;
+  padding: 0 2px 20px 2px;
+  text-align: center;
+  transition: all .4s;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.header-link,
+.header-logo {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.header-link {
+  padding: 10px 0;
+  border-radius: 10px;
+}
+
+.header-logo img {
+  display: inline-block;
+  width: 100%;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.header-link-active {
+  background: #F4F7F6;
+}
+
+.header-link-active svg {
+  fill: #22252B;
+}
+
+.header-link:hover {
+  background: #F4F7F6;
+}

@@ -1,0 +1,69 @@
+.ish {
+  width: 300px;
+  background: linear-gradient(45deg, #e0e89c, #faf87e);
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all .4s;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.ish h2 {
+  margin-bottom: 10px;
+}
+
+.ish p {
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.ish:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+}
+
+.ish:nth-child(1) {
+  background: #fff;
+}
+
+.ish:nth-child(2) {
+  background: linear-gradient(45deg, #72c2ff, #86f0ff);
+}
+
+.ish:nth-child(3) {
+  background: linear-gradient(45deg, #9ce89d, #cdfa7e);
+}
+
+.ish:nth-child(4) {
+  background: linear-gradient(45deg, #e0e89c, #faf87e);
+}
+
+.ish:nth-child(5) {
+  background: linear-gradient(45deg, #e89cd5, #d77efa);
+}
+
+.ish:nth-child(6) {
+  background: linear-gradient(45deg, #9cd9e8, #7ee7fa);
+}
+
+.ish:nth-child(7) {
+  background: linear-gradient(45deg, #e8d09c, #faf87e);
+}
+
+.ish:nth-child(8) {
+  background: linear-gradient(45deg, #9b7f7b, #f39072);
+}
+
+.ish:nth-child(9) {
+  background: linear-gradient(45deg, #b2d4ae, #485f22);
+}
+
+.ish:nth-child(10) {
+  background: linear-gradient(45deg, #bd9ce8, #7e80fa);
+}

@@ -1,0 +1,65 @@
+.daftar {
+  position: relative;
+  width: 300px;
+  background: linear-gradient(45deg, #e8d09c, #faf87e);
+  border: 1px solid transparent;
+  border-radius: 10px;
+  color: #333;
+  padding: 30px 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  transition: all .4s;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, .2);
+  text-align: center;
+}
+
+.daftar:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+}
+
+.daftar h2 {
+  font-size: 15px;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+
+.daftar:nth-child(1) {
+  background: #fff;
+}
+
+.daftar:nth-child(2) {
+  background: linear-gradient(45deg, #72c2ff, #86f0ff);
+}
+
+.daftar:nth-child(3) {
+  background: linear-gradient(45deg, #9ce89d, #cdfa7e);
+}
+
+.daftar:nth-child(4) {
+  background: linear-gradient(45deg, #e0e89c, #faf87e);
+}
+
+.daftar:nth-child(5) {
+  background: linear-gradient(45deg, #e89cd5, #d77efa);
+}
+
+.daftar:nth-child(6) {
+  background: linear-gradient(45deg, #9cd9e8, #7ee7fa);
+}
+
+.daftar:nth-child(7) {
+  background: linear-gradient(45deg, #e8d09c, #faf87e);
+}
+
+.daftar:nth-child(8) {
+  background: linear-gradient(45deg, #9b7f7b, #f39072);
+}
+
+.daftar:nth-child(9) {
+  background: linear-gradient(45deg, #b2d4ae, #485f22);
+}
+
+.daftar:nth-child(10) {
+  background: linear-gradient(45deg, #bd9ce8, #7e80fa);
+}
